@@ -1,0 +1,216 @@
+Python,OOP,Easy,What is a class in Python?,A class is a blueprint for creating objects and defining their behavior.
+Python,OOP,Easy,What is an object in Python?,An object is an instance of a class.
+Python,OOP,Easy,What is inheritance?,Inheritance allows a class to acquire properties and methods from another class.
+Python,OOP,Medium,What is polymorphism?,Polymorphism allows methods to behave differently based on the object calling them.
+Python,OOP,Medium,What is encapsulation?,Encapsulation restricts direct access to data and bundles it with methods.
+Python,OOP,Medium,What is abstraction?,Abstraction hides implementation details and exposes only essential features.
+Python,OOP,Hard,What is method overriding?,It allows a child class to provide a different implementation of a parent class method.
+Python,OOP,Hard,What is multiple inheritance?,A class inheriting from more than one parent class.
+Python,OOP,Hard,What is MRO in Python?,Method Resolution Order determines the order in which base classes are searched.
+Python,OOP,Hard,What is the super() function?,It is used to call methods of a parent class.
+
+Python,Functions,Easy,What is a function?,A reusable block of code designed to perform a specific task.
+Python,Functions,Easy,What is the difference between parameters and arguments?,Parameters are variables in a function definition while arguments are values passed to the function.
+Python,Functions,Easy,What is a return statement?,It sends a value back from a function.
+Python,Functions,Medium,What are lambda functions?,Anonymous functions defined using the lambda keyword.
+Python,Functions,Medium,What is recursion?,A function calling itself directly or indirectly.
+Python,Functions,Medium,What are default arguments?,Arguments with predefined values.
+Python,Functions,Medium,What is *args?,Allows passing multiple positional arguments.
+Python,Functions,Medium,What is **kwargs?,Allows passing multiple keyword arguments.
+Python,Functions,Hard,What are decorators?,Functions that modify the behavior of other functions.
+Python,Functions,Hard,What are generators?,Functions that yield values one at a time using yield.
+
+Python,Lists,Easy,What is a list?,An ordered mutable collection of items.
+Python,Lists,Easy,How do you add elements to a list?,Using append() or extend().
+Python,Lists,Easy,How do you remove elements from a list?,Using remove(), pop(), or del.
+Python,Lists,Medium,What is list comprehension?,A concise way to create lists.
+Python,Lists,Medium,Difference between append() and extend()?,append adds one item while extend adds multiple items.
+Python,Lists,Medium,How do you sort a list?,Using sort() or sorted().
+Python,Lists,Hard,What is shallow copy?,Copies references of nested objects.
+Python,Lists,Hard,What is deep copy?,Creates completely independent copies.
+Python,Lists,Hard,What is the time complexity of list append?,Amortized O(1).
+Python,Lists,Hard,What is slicing?,Extracting parts of a sequence using indexes.
+
+Python,Dictionaries,Easy,What is a dictionary?,A collection of key-value pairs.
+Python,Dictionaries,Easy,How do you access dictionary values?,Using keys.
+Python,Dictionaries,Easy,Can dictionary keys be duplicated?,No.
+Python,Dictionaries,Medium,What does get() do?,Safely retrieves a value without raising KeyError.
+Python,Dictionaries,Medium,What is the difference between keys() and values()?,keys() returns keys and values() returns values.
+Python,Dictionaries,Medium,How do you iterate through a dictionary?,Using loops and items().
+Python,Dictionaries,Hard,How are dictionaries implemented?,Using hash tables.
+Python,Dictionaries,Hard,What is a hash function?,A function that converts data into a fixed-size value.
+Python,Dictionaries,Hard,What is dictionary comprehension?,A concise way to create dictionaries.
+Python,Dictionaries,Hard,What causes hash collisions?,Different keys producing the same hash value.
+
+Python,Modules,Easy,What is a module?,A file containing Python code.
+Python,Modules,Easy,How do you import a module?,Using the import statement.
+Python,Modules,Easy,What is the purpose of pip?,To install Python packages.
+Python,Modules,Medium,What is a package?,A collection of related modules.
+Python,Modules,Medium,What is __name__ in Python?,A special variable indicating how a module is executed.
+Python,Modules,Medium,What does if __name__ == '__main__' mean?,It runs code only when the file is executed directly.
+Python,Modules,Hard,What is PYTHONPATH?,An environment variable that specifies module search paths.
+Python,Modules,Hard,What are virtual environments?,Isolated environments for Python projects.
+Python,Modules,Hard,Difference between module and package?,A module is a single file while a package is a collection of modules.
+Python,Modules,Hard,What is __init__.py?,A file that marks a directory as a Python package.
+SQL,Joins,Easy,What is SQL?,SQL is a language used to manage and query relational databases.
+SQL,Joins,Easy,What is an INNER JOIN?,Returns matching rows from both tables.
+SQL,Joins,Easy,What is a LEFT JOIN?,Returns all rows from the left table and matching rows from the right.
+SQL,Joins,Medium,What is a RIGHT JOIN?,Returns all rows from the right table and matching rows from the left.
+SQL,Joins,Medium,What is a FULL OUTER JOIN?,Returns all matching and non-matching rows from both tables.
+SQL,Joins,Medium,What is a SELF JOIN?,A table joined with itself.
+SQL,Joins,Hard,What is a CROSS JOIN?,Returns the Cartesian product of two tables.
+SQL,Joins,Hard,When should INNER JOIN be preferred over OUTER JOIN?,When only matching records are needed.
+SQL,Joins,Hard,What happens if join conditions are omitted?,A Cartesian product may be produced.
+SQL,Joins,Hard,Difference between JOIN and UNION?,JOIN combines columns while UNION combines rows.
+
+SQL,Subqueries,Easy,What is a subquery?,A query nested inside another query.
+SQL,Subqueries,Easy,Where can subqueries be used?,SELECT FROM WHERE and HAVING clauses.
+SQL,Subqueries,Easy,Can a subquery return multiple rows?,Yes depending on the operator used.
+SQL,Subqueries,Medium,What is a correlated subquery?,A subquery that depends on the outer query.
+SQL,Subqueries,Medium,Difference between correlated and non-correlated subqueries?,One depends on outer query while the other executes independently.
+SQL,Subqueries,Medium,What is EXISTS?,Checks if a subquery returns any rows.
+SQL,Subqueries,Hard,Difference between EXISTS and IN?,EXISTS checks existence while IN compares values.
+SQL,Subqueries,Hard,Can subqueries affect performance?,Yes especially correlated subqueries.
+SQL,Subqueries,Hard,When would JOIN be preferred over subqueries?,For better readability and performance in many cases.
+SQL,Subqueries,Hard,Can subqueries be nested?,Yes multiple levels are possible.
+
+SQL,Indexes,Easy,What is an index?,A database object that improves query performance.
+SQL,Indexes,Easy,Why are indexes used?,To speed up data retrieval.
+SQL,Indexes,Easy,Do indexes improve INSERT performance?,No they may slow writes.
+SQL,Indexes,Medium,What is a clustered index?,Determines physical storage order of data.
+SQL,Indexes,Medium,What is a non-clustered index?,Stores index separately from table data.
+SQL,Indexes,Medium,How many clustered indexes can a table have?,Only one.
+SQL,Indexes,Hard,What is index fragmentation?,Inefficient index storage causing performance issues.
+SQL,Indexes,Hard,How do you rebuild an index?,Using ALTER INDEX REBUILD.
+SQL,Indexes,Hard,What is a covering index?,An index containing all required query columns.
+SQL,Indexes,Hard,Can too many indexes be harmful?,Yes they increase storage and update cost.
+
+SQL,Constraints,Easy,What is a PRIMARY KEY?,A unique identifier for each row.
+SQL,Constraints,Easy,What is a FOREIGN KEY?,A column referencing another table.
+SQL,Constraints,Easy,What is a UNIQUE constraint?,Ensures all values are unique.
+SQL,Constraints,Medium,What is a NOT NULL constraint?,Prevents NULL values.
+SQL,Constraints,Medium,What is a CHECK constraint?,Validates data based on a condition.
+SQL,Constraints,Medium,What is a DEFAULT constraint?,Provides a default value when none is supplied.
+SQL,Constraints,Hard,Difference between PRIMARY KEY and UNIQUE?,Primary key cannot contain NULL values.
+SQL,Constraints,Hard,Can a table have multiple UNIQUE constraints?,Yes.
+SQL,Constraints,Hard,Why use FOREIGN KEY constraints?,To maintain referential integrity.
+SQL,Constraints,Hard,What is cascading delete?,Automatically deletes related child records.
+
+SQL,Views,Easy,What is a view?,A virtual table based on a query.
+SQL,Views,Easy,Why use views?,To simplify complex queries.
+SQL,Views,Easy,Can views store data?,Regular views do not store data.
+SQL,Views,Medium,What is an indexed view?,A view with a physical index.
+SQL,Views,Medium,Can views improve security?,Yes by restricting access to columns and rows.
+SQL,Views,Medium,Can data be modified through views?,Sometimes depending on the view definition.
+SQL,Views,Hard,Difference between view and table?,Views are virtual while tables store data.
+SQL,Views,Hard,What are materialized views?,Views whose results are physically stored.
+SQL,Views,Hard,When should views be avoided?,For highly complex queries with performance concerns.
+SQL,Views,Hard,Can a view be based on another view?,Yes.
+DBMS,Normalization,Easy,What is normalization?,Normalization is the process of organizing data to reduce redundancy and improve integrity.
+DBMS,Normalization,Easy,What is 1NF?,First Normal Form removes repeating groups and ensures atomic values.
+DBMS,Normalization,Easy,What is 2NF?,Second Normal Form removes partial dependencies.
+DBMS,Normalization,Medium,What is 3NF?,Third Normal Form removes transitive dependencies.
+DBMS,Normalization,Medium,What is BCNF?,Boyce-Codd Normal Form is a stronger version of 3NF.
+DBMS,Normalization,Medium,Why is normalization important?,It reduces redundancy and prevents anomalies.
+DBMS,Normalization,Hard,What are insertion anomalies?,Problems caused when inserting data into poorly designed tables.
+DBMS,Normalization,Hard,What are update anomalies?,Issues where multiple rows must be updated to maintain consistency.
+DBMS,Normalization,Hard,What are deletion anomalies?,Loss of important data due to deleting a row.
+DBMS,Normalization,Hard,When is denormalization used?,When performance improvements outweigh redundancy concerns.
+
+DBMS,Keys,Easy,What is a primary key?,A column or set of columns that uniquely identifies each row.
+DBMS,Keys,Easy,What is a foreign key?,A column that references a key in another table.
+DBMS,Keys,Easy,What is a candidate key?,A column that can uniquely identify rows.
+DBMS,Keys,Medium,What is an alternate key?,A candidate key not selected as the primary key.
+DBMS,Keys,Medium,What is a composite key?,A key formed using multiple columns.
+DBMS,Keys,Medium,What is a super key?,A set of attributes that uniquely identifies rows.
+DBMS,Keys,Hard,Difference between primary key and unique key?,Primary key cannot contain NULL values.
+DBMS,Keys,Hard,Can a table have multiple candidate keys?,Yes.
+DBMS,Keys,Hard,Can a foreign key contain NULL values?,Yes unless restricted.
+DBMS,Keys,Hard,Why are keys important?,They maintain uniqueness and relationships.
+
+DBMS,Transactions,Easy,What is a transaction?,A logical unit of work performed on a database.
+DBMS,Transactions,Easy,What is COMMIT?,It permanently saves transaction changes.
+DBMS,Transactions,Easy,What is ROLLBACK?,It undoes uncommitted transaction changes.
+DBMS,Transactions,Medium,What are ACID properties?,Atomicity Consistency Isolation Durability.
+DBMS,Transactions,Medium,What is atomicity?,A transaction is completed fully or not at all.
+DBMS,Transactions,Medium,What is consistency?,A transaction keeps the database in a valid state.
+DBMS,Transactions,Hard,What is isolation?,Transactions execute independently without interference.
+DBMS,Transactions,Hard,What is durability?,Committed changes remain permanent.
+DBMS,Transactions,Hard,What is savepoint?,A point within a transaction to partially rollback.
+DBMS,Transactions,Hard,Why are transactions necessary?,To ensure reliable and accurate database operations.
+
+DBMS,ER Model,Easy,What is an ER model?,A conceptual representation of database structure.
+DBMS,ER Model,Easy,What is an entity?,An object or thing represented in a database.
+DBMS,ER Model,Easy,What is an attribute?,A property describing an entity.
+DBMS,ER Model,Medium,What is a relationship?,An association between entities.
+DBMS,ER Model,Medium,What is cardinality?,The number of relationships between entities.
+DBMS,ER Model,Medium,What is participation constraint?,Defines whether participation is mandatory.
+DBMS,ER Model,Hard,Difference between entity and attribute?,Entities are objects while attributes describe them.
+DBMS,ER Model,Hard,What is a weak entity?,An entity dependent on another entity.
+DBMS,ER Model,Hard,What is specialization?,Dividing an entity into subclasses.
+DBMS,ER Model,Hard,What is generalization?,Combining similar entities into a superclass.
+
+DBMS,Concurrency,Easy,What is concurrency control?,Managing simultaneous database operations safely.
+DBMS,Concurrency,Easy,What is a lock?,A mechanism restricting access to data.
+DBMS,Concurrency,Easy,What is shared locking?,Allows multiple transactions to read data.
+DBMS,Concurrency,Medium,What is exclusive locking?,Allows one transaction to modify data.
+DBMS,Concurrency,Medium,What is deadlock?,Two or more transactions waiting indefinitely for each other.
+DBMS,Concurrency,Medium,What is starvation?,A transaction waits indefinitely for resources.
+DBMS,Concurrency,Hard,What is timestamp ordering?,A concurrency control technique using timestamps.
+DBMS,Concurrency,Hard,What is two-phase locking?,A protocol ensuring serializability using lock acquisition and release phases.
+DBMS,Concurrency,Hard,What is serializability?,The property that concurrent execution produces the same result as serial execution.
+DBMS,Concurrency,Hard,How can deadlocks be prevented?,Using prevention, avoidance, detection, or recovery techniques.
+Operating System,Scheduling,Easy,What is an Operating System?,System software that manages hardware and software resources.
+Operating System,Scheduling,Easy,What is a process?,A program that is currently executing.
+Operating System,Scheduling,Easy,What is CPU scheduling?,The process of selecting which process gets CPU time.
+Operating System,Scheduling,Medium,What is FCFS scheduling?,First Come First Serve executes processes in order of arrival.
+Operating System,Scheduling,Medium,What is SJF scheduling?,Shortest Job First executes the shortest job first.
+Operating System,Scheduling,Medium,What is Round Robin scheduling?,Each process gets a fixed time quantum in cyclic order.
+Operating System,Scheduling,Hard,What is Priority Scheduling?,Processes are executed based on priority.
+Operating System,Scheduling,Hard,What is starvation in scheduling?,A process waits indefinitely due to lower priority.
+Operating System,Scheduling,Hard,What is aging?,A technique to prevent starvation by gradually increasing priority.
+Operating System,Scheduling,Hard,What is context switching?,Saving and restoring process state when switching CPU execution.
+
+Operating System,Processes,Easy,What is a process control block (PCB)?,A data structure storing process information.
+Operating System,Processes,Easy,What are process states?,New Ready Running Waiting and Terminated.
+Operating System,Processes,Easy,What is a parent process?,A process that creates another process.
+Operating System,Processes,Medium,What is a child process?,A process created by another process.
+Operating System,Processes,Medium,What is process synchronization?,Coordinating processes to share resources safely.
+Operating System,Processes,Medium,What is inter-process communication (IPC)?,Mechanisms allowing processes to communicate.
+Operating System,Processes,Hard,What is a race condition?,When results depend on execution timing.
+Operating System,Processes,Hard,What is a semaphore?,A synchronization mechanism using counters.
+Operating System,Processes,Hard,What is a mutex?,A lock allowing only one thread to access a resource.
+Operating System,Processes,Hard,Difference between process and program?,A program is passive while a process is active.
+
+Operating System,Threads,Easy,What is a thread?,The smallest unit of CPU execution.
+Operating System,Threads,Easy,Difference between process and thread?,Threads share memory while processes do not.
+Operating System,Threads,Easy,What is multithreading?,Running multiple threads concurrently.
+Operating System,Threads,Medium,What are user-level threads?,Threads managed by user-space libraries.
+Operating System,Threads,Medium,What are kernel-level threads?,Threads managed directly by the OS kernel.
+Operating System,Threads,Medium,What are benefits of multithreading?,Better responsiveness and resource utilization.
+Operating System,Threads,Hard,What is thread synchronization?,Controlling access to shared resources among threads.
+Operating System,Threads,Hard,What is thread starvation?,A thread never gets CPU resources.
+Operating System,Threads,Hard,What is thread safety?,Code that works correctly in concurrent environments.
+Operating System,Threads,Hard,What is a thread pool?,A collection of reusable worker threads.
+
+Operating System,Memory Management,Easy,What is memory management?,Managing allocation and deallocation of memory.
+Operating System,Memory Management,Easy,What is paging?,Dividing memory into fixed-size pages.
+Operating System,Memory Management,Easy,What is virtual memory?,Using secondary storage as an extension of RAM.
+Operating System,Memory Management,Medium,What is segmentation?,Dividing memory into logical segments.
+Operating System,Memory Management,Medium,What is fragmentation?,Unused memory spaces reducing efficiency.
+Operating System,Memory Management,Medium,Difference between internal and external fragmentation?,Internal occurs inside allocated blocks while external occurs between blocks.
+Operating System,Memory Management,Hard,What is demand paging?,Loading pages into memory only when required.
+Operating System,Memory Management,Hard,What is page fault?,Occurs when a required page is not in memory.
+Operating System,Memory Management,Hard,What is thrashing?,Excessive paging causing performance degradation.
+Operating System,Memory Management,Hard,What is page replacement?,Replacing memory pages when memory is full.
+
+Operating System,Deadlocks,Easy,What is a deadlock?,A situation where processes wait indefinitely for resources.
+Operating System,Deadlocks,Easy,What are the four conditions for deadlock?,Mutual exclusion Hold and Wait No Preemption Circular Wait.
+Operating System,Deadlocks,Easy,What is mutual exclusion?,Only one process can use a resource at a time.
+Operating System,Deadlocks,Medium,What is deadlock prevention?,Preventing one of the deadlock conditions.
+Operating System,Deadlocks,Medium,What is deadlock avoidance?,Allocating resources to avoid unsafe states.
+Operating System,Deadlocks,Medium,What is deadlock detection?,Identifying deadlocks after they occur.
+Operating System,Deadlocks,Hard,What is Banker's Algorithm?,A deadlock avoidance algorithm.
+Operating System,Deadlocks,Hard,What is deadlock recovery?,Techniques used to recover after a deadlock.
+Operating System,Deadlocks,Hard,What is a safe state?,A state where all processes can complete successfully.
+Operating System,Deadlocks,Hard,Difference between prevention and avoidance?,Prevention eliminates conditions while avoidance checks safe allocation.
